@@ -4,11 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>IDB Asplode</title>
+  <script src="main.js"></script>
 </head>
 <body>
   Some indexedDB tests
-  <button>Start</button>
+  <button onclick="run()">Start</button>
+  <button onclick="stop()">Stop</button>
   <h3>Log</h3>
+  <pre id="count"></pre>
   <pre id="log"></pre>
 </body>
 </html>
